@@ -1,21 +1,90 @@
-body{
-    /* background-color: black; */
+body {
+  background-color: rgba(167, 194, 105, 0.897);
+  margin: 20px;
+  padding: 20px;
 }
 
-.wrapper{
-    padding: 10px;
-    background-color: white;
-border: 2px solid black;
-
+.image {
+  display: flex;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
 }
 
-.container{
-    display: flex;
-    gap : 20px;
+.title {
+  padding: 0px 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
-.section1{
-    color: blue;
-
+.title-1 {
+  margin: 10px;
+  font-size: 64px;
+  font-weight: 700;
+  color: rgba(0, 0, 255, 0.591);
 }
 
+.title-2 {
+  margin-left: -50px;
+  font-size: 44px;
+  font-weight: 400;
+  color: rgba(24, 23, 23, 0.774);
+}
+
+.wrapper {
+  border-radius: 20px;
+  background-color: rgba(127, 255, 212, 0.733);
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.section1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: rgba(0, 0, 255, 0.596);
+  padding: 10px;
+  margin: 20px;
+}
+
+.content {
+  font-size: 20px;
+  display: flex;
+  margin: 10px;
+  padding: 0px 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  padding: 10px;
+  margin: 20px;
+}
+
+.bio {
+  margin-left: 45px;
+  font-size: 32px;
+}
+
+.bullets {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 20px;
+}
+
+.creator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
